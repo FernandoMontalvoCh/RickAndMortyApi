@@ -31,7 +31,7 @@ const CardDetails = () => {
             return <div className="badge bg-secondary fs-5">{status}</div>;
           }
         })()}
-        <div className="content">
+        <div className="content" style={{color: "white"}}>
           <div className="">
             <span className="fw-bold">Gender : </span>
             {gender}

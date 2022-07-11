@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState, useEffect } from "react";
+import './App.css';
 
 import Search from "./components/Search/Search";
 import Card from "./components/Card/Card";

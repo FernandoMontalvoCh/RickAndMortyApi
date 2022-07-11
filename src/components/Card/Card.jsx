@@ -18,7 +18,7 @@ const Card = ({ page, results }) => {
           className="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 position-relative text-dark"
         >
           <div
-            className={`${styles.card} d-flex flex-column justify-content-center`}
+            className={`${styles.card} d-flex flex-column justify-content-center`} style={{background: "white"}}
           >
             <img className={`${styles.img} img-fluid`} src={image} alt="" />
             <div className={`${styles.content}`}>
